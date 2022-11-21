@@ -1,0 +1,16 @@
+.jar file olusturma
+    1-Intellij'de yeni bir java project olusturun
+    2-src directory'si altina bir tane package olusturun(src ustune rightClick yap + new/Package)
+    3-package'in icine istedigiiniz kadar class interface abstract class enum olusturabilirsiniz
+    4-Gelistirdiginiz kodlari projeniz disinda her yerde kullanmak icin jarlamamiz gerekiyor
+    5-File>Project Structure>Artifact> + > Jar> from modules with dependecies> OK > Apply> OK
+    6-artifact olusturmus olduk, simdi bu artifact'i build etme zamani/ jar file'a donusturme zamani
+    7-Build > build artifact > build
+    8-Turuncu out dosyasi olustu icinde jar file vardir
+    9-bagimsiz bir path'e tasi, mesela masaustune yapistir bu jari
+
+.jar file'i kullanma
+    10- Bu jar file'i kullanmak istedigin asil intellij project'te ac
+    11-File> Project Structure> Library> + > Java > choose the jar file > OK > Apply> OK
+    12- Artik External Libraries altinda yeni bir jar file'in var istedigin zaman kullanabilirsin
+
