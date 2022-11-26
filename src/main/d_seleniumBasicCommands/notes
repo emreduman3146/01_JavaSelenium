@@ -1,0 +1,29 @@
+driver.get(); methodu
+    Parametre olarak verdigimiz url'ye gider(HTTPS request atar webServer'a) ve yuklenmesini bekler
+    Browser'in(tarayici) history'sini bilmez/ track edemez.
+
+driver.navigate.to();
+   Parametre olarak verdigimiz url'ye gider(HTTPS request atar), sayfanin yuklenmesini beklemez
+   Browser'in(tarayici) history'sini bilir/ track edebilir.
+
+-------------------------------------------------------------------------------------------------------
+driver.close();
+    browserdaki acik olan tab'i kapatir
+    Sadece 1 tab aciksa o tab'i kapatmak demek browser'in tamamen kapanmasina yol acar
+
+driver.quit();
+    browserda birden fazla tab aciksa, pop-up da dahil hepsini komple kapatmaya yarar.
+
+-------------------------------------------------------------------------------------------------------
+NOTE!!!
+    DesireCapabilities isimli class selenium4 ile birlikte java'da kullanilmaz hale gelmistir.
+    Modasi gecmistir, deprecated olmustur. Yapabildigi tum isleri ChromeOption Class'i yapabilmektedir
+
+
+ChromeOptions Class
+    Some common used arguments used in ChromeOptions class are:
+
+    start-maximized: Used to open Chrome in maximize mode
+    incognito: Used to open Chrome in incognito mode
+    headless: Used to open Chrome in headless mode
+    disable-extensions: Used to disable existing extensions on Chrome browser

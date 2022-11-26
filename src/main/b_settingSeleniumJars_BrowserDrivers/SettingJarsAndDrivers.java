@@ -52,14 +52,15 @@ public class SettingJarsAndDrivers
     public static void main(String[] args) throws InterruptedException {
 
         navigateToGoogleChrome("https://www.google.com","Google");
-        navigateToForefoxMozilla("https://www.firefox.com","Download Firefox — Fast, Private & Free — from Mozilla (CA)");
-        navigateToMicrosoftEdge("https://www.youtube.com","YouTube");
+      //  navigateToForefoxMozilla("https://www.firefox.com","Download Firefox — Fast, Private & Free — from Mozilla (CA)");
+       // navigateToMicrosoftEdge("https://www.youtube.com","YouTube");
     }
 
 
 
 
     public static void navigateToGoogleChrome(String url, String expectedTitle) throws InterruptedException {
+
         driver = new ChromeDriver();//I CREATED AN OBJECT FROM ChromeDriver CLASS if ı dont use this object a blank webpage will be opened
 
         goToUrl_And_verifyTheTitle(url,expectedTitle);

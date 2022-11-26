@@ -1,0 +1,44 @@
+JSON WIRE PROTOKOL'den WC3(World Wide Web Consortium) PROTOKOLU'ne GECIS
+    JSON WireProtocol Selenium 4.0 version'a kadar kullanildi. Artik bu sistem kullanilmiyor.
+    Selenium 4.0 version itibariyle tamamen W3C (World Wide Web Consortium) sistemine gecildi.
+
+    WebDriver W3C Protokolü çalışırken, otomasyon testçilerinin artık farklı web tarayıcılarında çalışmak için otomasyon testi scriptlerini
+    değiştirmesine gerek kalmayacak.
+
+
+WebDriver W3C Protokolünün Başlıca Avantajları Nelerdir?
+    Selenium, tarayıcılar arasında tarayıcılar gibi daha tutarlı bir şekilde çalışır ve Selenium WebDriver web serverler ile
+    aynı protokolü kullanır.
+    Eskiden,
+        Browserlar W3C Protokolune gecis yaptiginda selenium hala jsonWireProtocol kullaniyordu.
+        Bu yuzden json formatindaki requestler browser'a ulasmadan once W3C protokolune gore yorumlanmasi gerekiyordu.
+
+    WebDriver W3C Protokolü ile otomatik Selenium testi daha az kesintili ve daha kararlı olacaktır.
+    WebDriver W3C Protokolündeki Actions API'si, JSON Wire Protokolüne kıyasla daha zengindir.
+    Actions API, WebDriver Spec ile uyumlu olacak şekilde yenilendi.
+    Actions API'leri artık birden fazla tiklama, zoom-in, zoom-out, ayni anda pressing two keys , ve daha fazlasını gerçekleştirmenize olanak tanır.
+    W3C uyumlu web siteleri, daha temiz kodlar daha iyi okunabilirlik sağladığından, bakım çabalarının azaltılmasına yardımcı olur.
+
+    Daha fazla okuma yapmak icin->https://medium.com/@juanba48/selenium-4-is-now-w3c-compliant-what-does-this-mean-ceb44de2d29b
+    (page translation yapabilirsiniz)
+
+Simdi JAVA-SELENIUM Automation Script(yazi/kod)lerinin Browserlarin Driverlari ile nasil calistigina bakalim.
+
+     Java dili ve selenium library leri ile yazdigimiz kodlari run'a basarak intellij'e de calistirdik.
+     java kodlarimiz JVM(JavaVirtualMachine) ile 01010101 binary diline donusturuldu.
+     Cunku bilgisayarin islemcisi ve RAM'i sadece binary dili okuyabilir.
+     Bizim Intellij'e de yazdigimiz emirleri sirasiyla yapar.
+
+     Istemci(kendi pc'miz) ile sunucu(http server) arasindaki iletisimi saglar.
+     Ortak bir dil kullanir. Bu dil JSON dilidir. JSON dili API dilidir.
+     JSON formatinda komutlari http server'a yollar.
+     JSON formatindaki emri alan HTTP Server emri yerine getirir.
+     Mesela chrome browser launch olur, belli bir url'ye gidilir.
+     Her bir selenium emrimiz icin yeni bir json formatinda data(mesaj) gonderilir HTTP server'a.
+
+     Buradaki sozel aciklamayi "Postman" isimli uygulama ile gerceklestirdik.
+     Postman, serverlar arasi api endpointleri(ortak iletisim dili, mesela JSON dili)'ni elimizle yazip,
+     sonuclarini gormemize olanak saglar.
+     Intellij'de Java dilinde yazdigimiz tum codelarin json dilindeki karsiligini elimizle yazdik ve calistirdik.
+     Buradaki resmi documentation'dan bakarak yaptik.
+        ===>>> https://www.selenium.dev/documentation/legacy/json_wire_protocol/
