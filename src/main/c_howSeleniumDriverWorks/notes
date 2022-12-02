@@ -42,3 +42,4 @@ Simdi JAVA-SELENIUM Automation Script(yazi/kod)lerinin Browserlarin Driverlari i
      Intellij'de Java dilinde yazdigimiz tum codelarin json dilindeki karsiligini elimizle yazdik ve calistirdik.
      Buradaki resmi documentation'dan bakarak yaptik.
         ===>>> https://www.selenium.dev/documentation/legacy/json_wire_protocol/
+        ===>>> https://www.w3.org/TR/webdriver/#endpoints

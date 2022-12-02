@@ -1,0 +1,68 @@
+prepaire a slate and put image/short videos to explain selenium's 4 components
+ilk bu folder anlatilacak sonra digerleri
+
+bu projede bu kadar yeter
+
+2.ders
+sonraki ders selenium maven projesi olacak
+maven dependecy imizi kednimiz nasil olustururuz
+mnvRepo ve dependecy ile google 'a gitme
+chromeDriver.setup() ve yeni halini anlat
+setProperty 4.6.0 dan sonra kalkti
+
+selenium 8 locator'in her detayina kadar anlat
+anlatirken 21 Temel webelement.actionlarini goster , getRect()
+
+
+3.ders
+Junit5 nedir/annotationslarini goster
+yeni selenium konularini anlat junit test methodlari ile
+basit bir junit test framework kur
+junit report
+Runner'in olsun
+black box test ve white box testing'e ornek rasyonal sayi jar'imizi test edelim.
+
+4.ders
+testNG NEDIR/ annotationlari
+testbase class
+testng reporting + extent reporting
+seleniumun ilave konulari
+testng.xml runner filelari
+paralel ve crossbrowser
+
+......
+POM nedir
+ortak driver, configgurqtion properties
+logging
+cucumber
+    gherkin
+    hooks
+    paralel testing
+    crossbrowser testing
+    reporting
+maven aslinda nedir, mvn lide cycle, mvn command ile test run etme, maven pluginsleri, cucumber pluginsleri
+
+toplam max 8 derste 1 ayda UI testing bitmeli
+
+toplam8 derste 1 ayda api testing
+2 ders 1 week api nedir/swagger/postman manuel testing
+4ders restassured+2 ders karate
+
+
+3hafta database
+4 ders sql+ 1 ders jdbc + 1 ders springboot/hybernate
+
+
+1 DERS ISTQB + 1 QA VE IS DUNYASI TEST CESITLARI AGILE +1 JIRA
+
+7 DERS MAX
+devops module3'te
+selenium grid4 0.5
+docker+selenium grid4 1.5gun docker nedir girisi ile
+jenkins 1 gun
+docker+jenkins 1 gun
+jenkins+docker+aws 1 gun
+
+2 SPRINTTEN 1 AY PROJE PROJE ESNASINDA
+
+TOPLAMDA 6AY+1AY
