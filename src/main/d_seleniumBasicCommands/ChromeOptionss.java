@@ -27,7 +27,7 @@ public class ChromeOptionss
 
         //browser calismadan once setting yap.
         chromeOption.addArguments(
-                "g",//maximized olarak launch/baslatmak edilir
+                "--start-maximized",//maximized olarak launch/baslatmak edilir
                 //"--incognito",//browser gizli mode
                 //"--headless",//arkaplanda calisir, browser launch edilmez
                 "--disable-notifications"//bildirim almak ister misin pop-up'i
